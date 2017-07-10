@@ -1,0 +1,34 @@
+.submit {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    background: #fff url('../img/google_logo.png') no-repeat 4px 58%;
+    cursor: pointer;
+}
+
+.search-request {
+    display: inline-block;
+    position: relative;
+    top: -22px;
+    width: 650px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 18px;
+    text-indent: 10px;
+}
+
+.results-list ul {
+    display: flex;
+    padding-left: 10px;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.results-list img {
+    width: 300px;
+}
